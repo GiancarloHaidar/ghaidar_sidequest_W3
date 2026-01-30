@@ -52,7 +52,11 @@ function draw() {
   else if (currentScreen === "instr") drawInstr();
   else if (currentScreen === "game") drawGame();
   else if (currentScreen === "win") drawWin();
+  else if (currentScreen === "batmanCatchAntidote") batmanCatchAntidote();
+  else if (currentScreen === "batmanCatchCatwomen") batmanCatchCatwomen();
   else if (currentScreen === "lose") drawLose();
+  else if (currentScreen === "jokerDropAntidote") jokerDropAntidote();
+  else if (currentScreen === "jokerDropCatwomen") jokerDropCatwomen();
 
   // (Optional teaching note)
   // This “if/else chain” is a very common early approach.
