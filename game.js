@@ -17,7 +17,7 @@ const gameBtn = {
   y: 550, // y position (centre of the button)
   w: 260, // width
   h: 90, // height
-  label: "PRESS HERE", // text shown on the button
+  label: "BE GIVEN", // text shown on the button
 };
 
 // ------------------------------
@@ -27,17 +27,21 @@ const gameBtn = {
 // when currentScreen === "game"
 function drawGame() {
   // Set background colour for the game screen
-  background(240, 230, 140);
+  background(0);
 
   // ---- Title and instructions text ----
-  fill(0); // black text
+  fill(240, 230, 140); // black text
   textSize(32);
   textAlign(CENTER, CENTER);
-  text("Game Screen", width / 2, 160);
+  text(
+    "The hero and villian stand eachother's feet and both have to make a deep choice ❓",
+    width / 2,
+    160,
+  );
 
   textSize(18);
   text(
-    "Click the button (or press ENTER) for a random result.",
+    "Click the button (or press ENTER) to be receive a random character.",
     width / 2,
     210,
   );

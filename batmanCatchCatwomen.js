@@ -19,14 +19,14 @@ function jokerDropCatwomen() {
   // Main message
   textSize(40);
   text(
-    "The Batman falls for the bait and goes for Catwomen! The laughing gas spreads and now Gothem city is under your control 🤡",
+    "Batman goes for the Catwomen! The Joker's laughing gas spreads across Gothem city and is now under his control 🤡",
     width / 2,
     300,
   );
 
   // Instruction text
   textSize(20);
-  text("Click or press R to return to Start.", width / 2, 360);
+  text("Press R to return to Start.", width / 2, 360);
 }
 
 // ------------------------------

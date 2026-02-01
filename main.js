@@ -32,7 +32,7 @@ function setup() {
 
   // Sets a default font for all text() calls
   // (This can be changed later per-screen if you want.)
-  textFont("sans-serif");
+  textFont("Comic Neue");
 }
 
 // ------------------------------
@@ -84,6 +84,8 @@ function mousePressed() {
   // This prevents errors if a screen doesn’t implement a handler.
   else if (currentScreen === "win") winMousePressed?.();
   else if (currentScreen === "lose") loseMousePressed?.();
+  else {
+  }
 }
 
 // ------------------------------
@@ -102,7 +104,11 @@ function keyPressed() {
   else if (currentScreen === "instr") instrKeyPressed();
   else if (currentScreen === "game") gameKeyPressed?.();
   else if (currentScreen === "win") winKeyPressed?.();
+  else if (currentScreen === "batmanCatchAntidote") loseKeyPressed();
+  else if (currentScreen === "batmanCatchCatwomen") loseKeyPressed();
   else if (currentScreen === "lose") loseKeyPressed?.();
+  else if (currentScreen === "jokerDropAntidote") loseKeyPressed();
+  else if (currentScreen === "jokerDropCatwomen") loseKeyPressed();
 }
 
 // ------------------------------------------------------------

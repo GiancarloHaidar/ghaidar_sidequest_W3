@@ -13,11 +13,11 @@
 // ------------------------------------------------------------
 // drawWin() is called from main.js
 // only when currentScreen === "win"
-function drawJoker() {
+function drawLose() {
   // Green-tinted background to communicate success
   background(29, 161, 31);
 
-  fill(171, 93, 238);
+  fill(0);
   textAlign(CENTER, CENTER);
 
   // Main success message
@@ -31,18 +31,10 @@ function drawJoker() {
   // Instruction text
   textSize(20);
   text(
-    "Click or press C to drop Catwomen 🦹🏻‍♀️ or A to drop the antidote 🧪",
+    "Press C to drop Catwomen 🦹🏻‍♀️ or A to drop the antidote 🧪",
     width / 2,
     360,
   );
-}
-
-// ------------------------------------------------------------
-// Mouse input for win screen
-// ------------------------------------------------------------
-// Any mouse click returns the player to the start screen
-function winMousePressed() {
-  currentScreen = "start";
 }
 
 // ------------------------------------------------------------
@@ -51,9 +43,9 @@ function winMousePressed() {
 // R is commonly used for “restart” in games
 function winKeyPressed() {
   if (key === "c" || key === "C") {
-    currentScreen = "jokerDropCatwomen";
+    currentScreen = "batmanCatchCatwomen";
   }
   if (key === "a" || key === "A") {
-    currentScreen = "jokerDropAntidote";
+    currentScreen = "batmanCatchAntidote";
   }
 }

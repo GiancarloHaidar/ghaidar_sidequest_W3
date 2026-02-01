@@ -11,22 +11,22 @@
 // only when currentScreen === "lose"
 function jokerDropAntidote() {
   // Red-tinted background to communicate failure
-  background(197, 197, 197);
+  background(152, 136, 41);
 
-  fill(171, 93, 238);
+  fill(40, 46, 60);
   textAlign(CENTER, CENTER);
 
   // Main message
   textSize(40);
   text(
-    "The Batman chooses wisely and goes for the Antidote! The laughing gas is stoped but now Catwomen is under your control 🃏",
+    "Batman goes for the Antidote! The Joker's laughing gas is stoped but now Catwomen is now under his control 🦹🏻‍♀️",
     width / 2,
     300,
   );
 
   // Instruction text
   textSize(20);
-  text("Click or press R to return to Start.", width / 2, 360);
+  text("Press R to return to Start.", width / 2, 360);
 }
 
 // ------------------------------

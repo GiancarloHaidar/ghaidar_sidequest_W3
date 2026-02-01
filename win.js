@@ -22,19 +22,19 @@ function drawWin() {
 
   // Main success message
   textSize(40);
-  text("You Win!", width / 2, 300);
+  text(
+    "The Joker is about to drop either Catwoman or the laughing gas antidote that is affecting Gotham. Which do you catch off the skyskraper?",
+    width / 2,
+    300,
+  );
 
   // Instruction text
   textSize(20);
-  text("Click or press R to return to Start.", width / 2, 360);
-}
-
-// ------------------------------------------------------------
-// Mouse input for win screen
-// ------------------------------------------------------------
-// Any mouse click returns the player to the start screen
-function winMousePressed() {
-  currentScreen = "start";
+  text(
+    "Click or press C to catch Catwomen 🦹🏻‍♀️ or A to catch the antidote 🧪",
+    width / 2,
+    360,
+  );
 }
 
 // ------------------------------------------------------------

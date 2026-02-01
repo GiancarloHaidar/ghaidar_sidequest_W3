@@ -12,13 +12,13 @@
 // currentScreen === "start"
 function drawStart() {
   // Background colour for the start screen
-  background(180, 225, 220); // soft teal background
+  background(0, 0, 0); // soft teal background
 
   // ---- Title text ----
-  fill(30, 50, 60);
+  fill(248, 11, 11);
   textSize(46);
   textAlign(CENTER, CENTER);
-  text("Win or Lose", width / 2, 180);
+  text("Batman 🦇 V.S. Joker 🃏", width / 2, 180);
 
   // ---- Buttons (data only) ----
   // These objects store the position/size/label for each button.
@@ -29,7 +29,7 @@ function drawStart() {
     y: 320,
     w: 240,
     h: 80,
-    label: "START",
+    label: "BEGIN",
   };
 
   const instrBtn = {
