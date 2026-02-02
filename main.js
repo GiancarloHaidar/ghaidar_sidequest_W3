@@ -82,10 +82,6 @@ function mousePressed() {
   else if (currentScreen === "game") gameMousePressed();
   // The ?.() means “call this function only if it exists”
   // This prevents errors if a screen doesn’t implement a handler.
-  else if (currentScreen === "win") winMousePressed?.();
-  else if (currentScreen === "lose") loseMousePressed?.();
-  else {
-  }
 }
 
 // ------------------------------
