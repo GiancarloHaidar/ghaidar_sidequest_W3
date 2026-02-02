@@ -31,14 +31,15 @@ function drawGame() {
 
   // ---- Title and instructions text ----
   fill(240, 230, 140); // black text
-  textSize(32);
+  textSize(28);
   textAlign(CENTER, CENTER);
   text(
-    "The hero and villian stand eachother's feet and both have to make a deep choice ❓",
+    "THE HERO AND VILLIAN STAND EACHOTHER'S \n FEET AND BOTH HAVE TO MAKE A DEEP CHOICE ❓",
     width / 2,
     160,
   );
 
+  fill(255, 255, 255);
   textSize(18);
   text(
     "Click the button (or press ENTER) to be receive a random character.",

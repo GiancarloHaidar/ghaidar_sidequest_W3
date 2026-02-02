@@ -15,23 +15,24 @@
 // only when currentScreen === "win"
 function drawWin() {
   // Green-tinted background to communicate success
-  background(200, 255, 200);
+  background(80, 92, 124);
 
-  fill(0);
+  fill(253, 255, 0);
   textAlign(CENTER, CENTER);
 
   // Main success message
-  textSize(40);
+  textSize(28);
   text(
-    "The Joker is about to drop either Catwoman or the laughing gas antidote that is affecting Gotham. Which do you catch off the skyskraper?",
+    "THE JOKER IS ABOUT TO DROP EITHER CATWOMAN \n OR THE LAUGHING GAS ANTIDOTE \n THAT IS AFFECTING GOTHAM.\n WHICH DOES THE BATMAN CATCH OFF THE SKYSKRAPER?",
     width / 2,
     300,
   );
 
   // Instruction text
+  fill(255, 255, 255);
   textSize(20);
   text(
-    "Click or press C to catch Catwomen 🦹🏻‍♀️ or A to catch the antidote 🧪",
+    "Press C to catch Catwomen 🦹🏻‍♀️ or A to catch the antidote 🧪",
     width / 2,
     360,
   );

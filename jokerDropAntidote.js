@@ -26,7 +26,7 @@ function jokerDropAntidote() {
 
   // Instruction text
   textSize(20);
-  text("Click or press R to return to Start.", width / 2, 360);
+  text("Press R to return to Start.", width / 2, 360);
 }
 
 // ------------------------------

@@ -11,9 +11,9 @@
 // only when currentScreen === "lose"
 function jokerDropCatwomen() {
   // Red-tinted background to communicate failure
-  background(171, 93, 238);
+  background(36, 36, 36);
 
-  fill(100);
+  fill(197, 197, 197);
   textAlign(CENTER, CENTER);
 
   // Main message

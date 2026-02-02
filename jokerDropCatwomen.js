@@ -17,16 +17,17 @@ function jokerDropCatwomen() {
   textAlign(CENTER, CENTER);
 
   // Main message
-  textSize(40);
+  textSize(28);
   text(
-    "The Batman falls for the bait and goes for Catwomen! The laughing gas spreads and now Gothem city is under your control 🤡",
+    "The Batman falls for the bait \n and goes for Catwomen! \n The laughing gas spreads \n and now Gothem city is under your control 🤡",
     width / 2,
     300,
   );
 
   // Instruction text
+  fill(255, 255, 255);
   textSize(20);
-  text("Press R to return to Start.", width / 2, 360);
+  text("P ress R to return to Start.", width / 2, 360);
 }
 
 // ------------------------------

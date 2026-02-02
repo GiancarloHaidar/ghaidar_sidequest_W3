@@ -18,7 +18,7 @@ function drawStart() {
   fill(248, 11, 11);
   textSize(46);
   textAlign(CENTER, CENTER);
-  text("Batman 🦇 V.S. Joker 🃏", width / 2, 180);
+  text("BATMAN 🦇 V.S. JOKER 🃏", width / 2, 180);
 
   // ---- Buttons (data only) ----
   // These objects store the position/size/label for each button.
@@ -29,7 +29,7 @@ function drawStart() {
     y: 320,
     w: 240,
     h: 80,
-    label: "BEGIN",
+    label: "Begin",
   };
 
   const instrBtn = {
@@ -37,7 +37,7 @@ function drawStart() {
     y: 430,
     w: 240,
     h: 80,
-    label: "INSTRUCTIONS",
+    label: "Instructions",
   };
 
   // Draw both buttons

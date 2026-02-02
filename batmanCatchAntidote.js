@@ -17,14 +17,15 @@ function jokerDropAntidote() {
   textAlign(CENTER, CENTER);
 
   // Main message
-  textSize(40);
+  textSize(28);
   text(
-    "Batman goes for the Antidote! The Joker's laughing gas is stoped but now Catwomen is now under his control 🦹🏻‍♀️",
+    "BATMAN GOES FOR THE ANTIDOTE! \n THE JOKER'S LAUGHING GAS IS STOPED \n BUT NOW CATWOMEN IS NOW UNDER HIS CONTROL 🦹🏻‍♀️",
     width / 2,
     300,
   );
 
   // Instruction text
+  fill(255, 255, 255);
   textSize(20);
   text("Press R to return to Start.", width / 2, 360);
 }

@@ -21,14 +21,15 @@ function drawLose() {
   textAlign(CENTER, CENTER);
 
   // Main success message
-  textSize(40);
+  textSize(28);
   text(
-    "The Batman stands in your way as you hold Catwoman and the laughing gas antidote that is affecting Gotham. Which do you drop off the skyskraper?",
+    "THE BATMAN STANDS IN YOUR WAY AS YOU HOLD CATWOMAN \n AND THE LAUGHING GAS ANTIDOTE THAT IS AFFECTING GOTHAM. \n WHICH DO YOU DROP OFF THE SKYSKRAPER?",
     width / 2,
     300,
   );
 
   // Instruction text
+  fill(255, 255, 255);
   textSize(20);
   text(
     "Press C to drop Catwomen 🦹🏻‍♀️ or A to drop the antidote 🧪",
