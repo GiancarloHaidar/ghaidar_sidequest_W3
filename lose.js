@@ -23,7 +23,7 @@ function drawLose() {
   // Main success message
   textSize(28);
   text(
-    "THE BATMAN STANDS IN YOUR WAY AS YOU HOLD CATWOMAN \n AND THE LAUGHING GAS ANTIDOTE THAT IS AFFECTING GOTHAM. \n WHICH DO YOU DROP OFF THE SKYSKRAPER?",
+    "THE BATMAN STANDS IN YOUR WAY AS YOU HOLD \n CATWOMAN AND THE LAUGHING GAS ANTIDOTE \n THAT IS AFFECTING GOTHAM. \n WHICH DO YOU DROP OFF THE SKYSKRAPER?",
     width / 2,
     300,
   );
@@ -34,7 +34,7 @@ function drawLose() {
   text(
     "Press C to drop Catwomen 🦹🏻‍♀️ or A to drop the antidote 🧪",
     width / 2,
-    360,
+    380,
   );
 }
 
@@ -42,11 +42,11 @@ function drawLose() {
 // Keyboard input for win screen
 // ------------------------------------------------------------
 // R is commonly used for “restart” in games
-function winKeyPressed() {
+function jokerKeyPressed() {
   if (key === "c" || key === "C") {
-    currentScreen = "batmanCatchCatwomen";
+    currentScreen = "jokerDropCatwomen";
   }
   if (key === "a" || key === "A") {
-    currentScreen = "batmanCatchAntidote";
+    currentScreen = "jokerDropAntidote";
   }
 }

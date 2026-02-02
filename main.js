@@ -103,12 +103,12 @@ function keyPressed() {
   if (currentScreen === "start") startKeyPressed();
   else if (currentScreen === "instr") instrKeyPressed();
   else if (currentScreen === "game") gameKeyPressed?.();
-  else if (currentScreen === "win") batmanKeyPressed?.();
-  else if (currentScreen === "batmanCatchAntidote") loseKeyPressed?.();
-  else if (currentScreen === "batmanCatchCatwomen") loseKeyPressed?.();
+  else if (currentScreen === "win") batmanKeyPressed();
+  else if (currentScreen === "batmanCatchAntidote") loseKeyPressed();
+  else if (currentScreen === "batmanCatchCatwomen") loseKeyPressed();
   else if (currentScreen === "lose") jokerKeyPressed?.();
-  else if (currentScreen === "jokerDropAntidote") loseKeyPressed?.();
-  else if (currentScreen === "jokerDropCatwomen") loseKeyPressed?.();
+  else if (currentScreen === "jokerDropAntidote") loseKeyPressed();
+  else if (currentScreen === "jokerDropCatwomen") loseKeyPressed();
 }
 
 // ------------------------------------------------------------

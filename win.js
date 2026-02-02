@@ -34,7 +34,7 @@ function drawWin() {
   text(
     "Press C to catch Catwomen 🦹🏻‍♀️ or A to catch the antidote 🧪",
     width / 2,
-    360,
+    380,
   );
 }
 
@@ -42,8 +42,11 @@ function drawWin() {
 // Keyboard input for win screen
 // ------------------------------------------------------------
 // R is commonly used for “restart” in games
-function winKeyPressed() {
-  if (key === "r" || key === "R") {
-    currentScreen = "start";
+function batmanKeyPressed() {
+  if (key === "c" || key === "C") {
+    currentScreen = "batmanCatchCatwomen";
+  }
+  if (key === "a" || key === "A") {
+    currentScreen = "batmanCatchAntidote";
   }
 }

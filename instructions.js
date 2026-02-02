@@ -12,10 +12,10 @@
 // only when currentScreen === "instr"
 function drawInstr() {
   // Light neutral background
-  background(240);
+  background(0);
 
   // ---- Screen title ----
-  fill(0);
+  fill(240, 230, 140);
   textAlign(CENTER, TOP);
   textSize(36);
   text("Instructions", width / 2, 80);
@@ -26,7 +26,7 @@ function drawInstr() {
   // \n creates a line break in the text
   // This is useful for simple multi-line instructions
   const lines =
-    "Press the game button.\n" + "You have a chance to win or lose!";
+    "SELECT THE CHARACTER CHOICE.\n" + "YOU DECIDE THE FATE OF THE ACTIONS 🔮";
 
   text(lines, width / 2, 160);
 
@@ -37,7 +37,7 @@ function drawInstr() {
     y: 560,
     w: 220,
     h: 70,
-    label: "BACK",
+    label: "Back",
   };
 
   // Draw the back button

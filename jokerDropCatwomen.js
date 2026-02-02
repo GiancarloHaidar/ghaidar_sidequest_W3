@@ -11,15 +11,15 @@
 // only when currentScreen === "lose"
 function jokerDropCatwomen() {
   // Red-tinted background to communicate failure
-  background(171, 93, 238);
+  background(0);
 
-  fill(100);
+  fill(171, 93, 238);
   textAlign(CENTER, CENTER);
 
   // Main message
   textSize(28);
   text(
-    "The Batman falls for the bait \n and goes for Catwomen! \n The laughing gas spreads \n and now Gothem city is under your control 🤡",
+    "THE BATMAN FALLS FOR THE BAIT \n AND GOES FOR CATWOMEN! \n THE LAUGHING GAS SPREADS \n AND NOW GOTHEM CITY IS UNDER YOUR CONTROL 🤡",
     width / 2,
     300,
   );
@@ -27,7 +27,7 @@ function jokerDropCatwomen() {
   // Instruction text
   fill(255, 255, 255);
   textSize(20);
-  text("P ress R to return to Start.", width / 2, 360);
+  text("P ress R to return to Start.", width / 2, 380);
 }
 
 // ------------------------------

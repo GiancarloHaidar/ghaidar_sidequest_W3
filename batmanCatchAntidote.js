@@ -9,7 +9,7 @@
 // ------------------------------
 // drawLose() is called from main.js
 // only when currentScreen === "lose"
-function jokerDropAntidote() {
+function batmanCatchAntidote() {
   // Red-tinted background to communicate failure
   background(152, 136, 41);
 
@@ -27,7 +27,7 @@ function jokerDropAntidote() {
   // Instruction text
   fill(255, 255, 255);
   textSize(20);
-  text("Press R to return to Start.", width / 2, 360);
+  text("Press R to return to Start.", width / 2, 380);
 }
 
 // ------------------------------

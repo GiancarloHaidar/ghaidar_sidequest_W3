@@ -9,7 +9,7 @@
 // ------------------------------
 // drawLose() is called from main.js
 // only when currentScreen === "lose"
-function jokerDropCatwomen() {
+function batmanCatchCatwomen() {
   // Red-tinted background to communicate failure
   background(36, 36, 36);
 
@@ -17,16 +17,17 @@ function jokerDropCatwomen() {
   textAlign(CENTER, CENTER);
 
   // Main message
-  textSize(40);
+  textSize(28);
   text(
-    "Batman goes for the Catwomen! The Joker's laughing gas spreads across Gothem city and is now under his control 🤡",
+    "BATMAN GOES FOR THE CATWOMEN! \n THE JOKER'S LAUGHING GAS SPREADS \n ACROSS GOTHEM CITY \n AND IS NOW UNDER HIS CONTROL 🤡",
     width / 2,
     300,
   );
 
   // Instruction text
+  fill(255, 255, 255);
   textSize(20);
-  text("Press R to return to Start.", width / 2, 360);
+  text("Press R to return to Start.", width / 2, 380);
 }
 
 // ------------------------------
